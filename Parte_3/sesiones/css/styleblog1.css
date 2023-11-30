@@ -1,3 +1,8 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -5,15 +10,10 @@ body {
     background-color: #f4f4f4;
 }
 
-header, footer, section, aside, nav, article 
-{
-	display: block;
-}
-
 header {
     background-color: #333;
     color: #fff;
-    padding: 10px;
+    padding: 20px;
     text-align: center;
 }
 
