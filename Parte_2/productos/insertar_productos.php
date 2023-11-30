@@ -30,7 +30,7 @@
     $consulta = "INSERT INTO productos(id_producto, seccion, producto, origen,
      importado, precio) VALUES('$id', '$sec', '$prod', '$org', '$imp', '$prec')";
 
-    $resultado = mysqli_query($conexion, $consulta);
+    $resultado = mysqli_query($conexion, $consulta);    
     
     if($resultado==false)
     {
