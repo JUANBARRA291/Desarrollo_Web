@@ -1,0 +1,243 @@
+* 
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body 
+{   
+    background-image: url('https://img.freepik.com/vector-gratis/fondo-abstracto-negro-azul_1340-17012.jpg?w=1800&t=st=1694525321~exp=1694525921~hmac=ae60ee39b12a8e9dc27fa431f9a05b5f347de58139e0f21cef44e13e633e9324');
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header 
+{
+    background-color: #6205cc;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+h1 
+{
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 36px;
+    color: white;
+    background-color: #6205cc;
+    padding: 30px;
+}
+
+h2 
+{
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    color: #ffffff;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+form 
+{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+    color: white;
+    background-color: #fff;
+}
+
+input[type="text"], input[type="email"], input[type="number"], input[type="date"] 
+{
+    width: 48%;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+input[type="file"] 
+{
+    width: 100%;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #dbdbdb;
+}
+
+select 
+{
+    width: 48%;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+    color: #787777;
+}
+
+button 
+{
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: #6205cc;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+    padding: 10px;
+}
+
+table 
+{
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: #fff;
+}
+
+th, td 
+{
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #fff;
+}
+
+th 
+{
+    background-color:#6205cc ;
+    color:white ;
+}
+
+label 
+{
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #6205cc;
+}
+
+a[href*="editar"] 
+{
+    color: green;
+}
+  
+a[href*="delete"] 
+{
+    color: red;
+}
+  
+a[href*="imprimir"] 
+{
+    color: blue;
+}
+.label{
+    width: 100%;
+    color: white;
+}
+
+.label label
+{
+    color: white;
+}
+
+main 
+{
+    max-width: 80%;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    text-align: center;
+    color: #fff;
+    margin-top: 70px;
+    margin-left: 140px;
+}
+
+main p 
+{
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+main img 
+{
+    max-width: 80%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.Menu
+{
+    background-color: #9539ff;
+    width: 480px;
+    text-align: center;
+    margin: auto;
+}
+
+.NAVI li a
+{
+    background-color: #9539ff;
+    color: white;
+    font-size: 20px;
+    width: 100%;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    text-align: left;
+   
+}
+
+.NAVI li a:hover
+{
+    background-color: rgb(40, 4, 62);
+    text-decoration: none;
+}
+
+.NAVI>li
+{
+    float: left;
+    text-decoration: none;
+    list-style:none;
+    
+}
+
+.NAVI li ul
+{
+    display: none;
+    position: absolute;
+    min-height: 150px;
+    list-style:none;
+}
+
+.NAVI li:hover>ul
+{
+    display: block;
+}
+
+.NAVI li ul li
+{
+    position: relative;
+}
+
+.NAVI li ul li ul
+{
+    right: -110px;
+    top: 1px;
+
+}
+
+.NAVI li ul a:hover
+{
+    background-color: rgb(40, 4, 62);
+}
